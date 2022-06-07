@@ -8,11 +8,12 @@ import { Slider } from './components/Slider'
 function App() {
   return (
         <div className="App">
-          {/* {
+          {
           Products.map( db => {
             return(
               <div className="products-box">
               <h1>{ db.category }</h1>
+              <img src={db.img}></img>
               {db.products.map( db => {
                 return(
                   <div>
@@ -26,7 +27,7 @@ function App() {
                 </div>
                 )
               })
-            } */}
+            }
             <main>
               <Header/>
               <Slider/>
