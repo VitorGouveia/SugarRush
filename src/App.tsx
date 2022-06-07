@@ -1,18 +1,18 @@
 import './App.css'
 import Products from './db.json'
 import './styles/main.scss'
-import { Header } from './Components/Header'
-import { Slider } from './Components/Slider'
+
+import { Header } from './components/Header'
+import { Slider } from './components/Slider'
 
 function App() {
   return (
-    <div className="App">
-      {
-        Products.map( db => {
-          return(
-            <div className="category-box">
-             <h1>{ db.category }</h1>
-             <img className="category-image"src={db.img}></img>
+        <div className="App">
+          {/* {
+          Products.map( db => {
+            return(
+              <div className="products-box">
+              <h1>{ db.category }</h1>
               {db.products.map( db => {
                 return(
                   <div>
@@ -26,7 +26,7 @@ function App() {
                 </div>
                 )
               })
-            }
+            } */}
             <main>
               <Header/>
               <Slider/>

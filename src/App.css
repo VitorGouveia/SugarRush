@@ -40,9 +40,3 @@
 button {
   font-size: calc(10px + 2vmin);
 }
-
-
-.product-image {
- width: 110px;
- background-color: #E6B2C4;
-}

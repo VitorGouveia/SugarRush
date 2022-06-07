@@ -10,10 +10,6 @@ body {
   background: linear-gradient(180deg, hsl(0, 0%, 100%) 0%, hsl(325, 37%, 90%) 100%);
 }
 
-.glider {
-  padding-bottom: 1rem;
-}
-
 .glider-container {
   margin-top: 1.25rem;
   margin-inline: 1rem;
@@ -21,15 +17,12 @@ body {
 }
 
 .glider-track {
+  // height: 100px;
   display: flex;
   gap: 0.7rem;
 }
 
 .glider-item {
-  font-weight: 500;
-  font-style: italic;
-  color: var(--clr-accent-500);
-
   width: 200px !important;
   display: flex;
   flex-direction: column;
@@ -49,9 +42,9 @@ body {
 }
 
 .glider-prev {
-  left: 20%;
+  left: 29px;
 }
 
 .glider-next {
-  right: 20%;
+  right: auto;
 }
