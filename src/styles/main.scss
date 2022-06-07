@@ -1,7 +1,40 @@
 // * Use all _index.scss from all folders in the main SCSS
-@use "../scss/abstracts" as *;
-@use "../scss/base" as *;
-@use "../scss/layout" as *;
-@use "../scss/pages" as *;
-@use "../scss/components" as *;
-@use "../scss/animations" as *;
+@use "../styles/abstracts" as *;
+@use "../styles/base" as *;
+@use "../styles/layout" as *;
+@use "../styles/components" as *;
+// @use "../scss/pages" as *;
+// @use "../scss/animations" as *;
+
+.glider-container {
+  width: 75%;
+  position: relative;
+}
+
+.glider-track {
+  height: 100px;
+}
+
+.glider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  background-color: var(--clr-accent-100);
+  padding: 10px 20px;
+}
+
+.glider-prev,
+.glider-next {
+  top: 100%;
+}
+
+.glider-prev {
+  left: 29px;
+}
+
+.glider-next {
+  right: auto;
+}

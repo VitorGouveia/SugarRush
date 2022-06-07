@@ -1,0 +1,7 @@
+@use "../abstracts/mixins" as *;
+@use "../base" as *;
+
+.header {
+  background-color: var(--clr-accent-200);
+  margin-top: 1rem;
+}
