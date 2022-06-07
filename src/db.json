@@ -197,6 +197,14 @@
         "price": "150,00",
         "image": "https://qlickmenu.s3-us-west-1.amazonaws.com/companies/products/53b064ac-78c1-4b62-ba33-7a9013436c7e.jpeg"
         }]},
+{"category": "Triffle",
+        "img": "https://cdn-icons.flaticon.com/png/512/3128/premium/3128236.png?token=exp=1654636469~hmac=8840c506c6f76d3b5587db213e4fc3b9",
+    "products":[{ 
+        "name": "Triffles G",
+        "description": "Sobremesas em camadas, floresta negra, abacaxi com coco, nozes com baba de moça e banofe",
+        "price": "240,00",
+        "image": "https://qlickmenu.s3-us-west-1.amazonaws.com/companies/products/7eea35bd-edda-4fd2-8d5b-74e170555456.jpeg"
+        }]},
 
 {"category": "Brie Folhado",
         "img": "https://res.cloudinary.com/decor/image/upload/v1654635491/Products%20YesCakes/BrieCheese_1_u2gcdm.svg",
@@ -206,14 +214,7 @@
         "price": "200,00",
         "image": "https://qlickmenu.s3-us-west-1.amazonaws.com/companies/products/185ef8fd-ddaf-4b88-bcac-f7a4e1bdea9e.png"
         }]},
-{"category": "Triffle",
-        "img": "https://cdn-icons.flaticon.com/png/512/3128/premium/3128236.png?token=exp=1654636469~hmac=8840c506c6f76d3b5587db213e4fc3b9",
-    "products":[{ 
-        "name": "Triffles G",
-        "description": "Sobremesas em camadas, floresta negra, abacaxi com coco, nozes com baba de moça e banofe",
-        "price": "240,00",
-        "image": "https://qlickmenu.s3-us-west-1.amazonaws.com/companies/products/7eea35bd-edda-4fd2-8d5b-74e170555456.jpeg"
-        }]},
+
 {"category": "Macarons",
         "img": "https://cdn-icons.flaticon.com/png/512/1923/premium/1923488.png?token=exp=1654636491~hmac=c8852453edd958166f6dc587a93a138e",
     "products":[{ 
