@@ -1,6 +1,5 @@
 import './App.css'
 import Products from './db.json'
-import {Button} from './Components/Button.style'
 
 function App() {
   return (
@@ -8,8 +7,9 @@ function App() {
       {
         Products.map( db => {
           return(
-            <div className="products-box">
+            <div className="category-box">
              <h1>{ db.category }</h1>
+             <img className="category-image"src={db.img}></img>
               {db.products.map( db => {
                return(
                 <div>
