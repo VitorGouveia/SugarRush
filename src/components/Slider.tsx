@@ -6,7 +6,7 @@ export function Slider() {
         new Glider(document.querySelector('.glider'), {
             // Mobile-first defaults
             slidesToScroll: 1,
-            slidesToShow: 2,
+            slidesToShow: 3,
             draggable: true,
             dots: '.dots',
             arrows: {
@@ -42,7 +42,8 @@ export function Slider() {
             <div className="glider-container">
                 <div className="glider">
                     <div className="glider-item"> 
-                        <h2>Pães</h2>
+                        <img className="category-image" src="/public/Bread.png" alt="" />
+                        <h2 className="category-name">Pães</h2>
                     </div>
                     <div className="glider-item"> 
                         <h2>Pães</h2>

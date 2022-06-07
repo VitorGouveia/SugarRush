@@ -2,6 +2,21 @@
 @use "../base" as *;
 
 .header {
+  color: var(--clr-accent-700);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
   background-color: var(--clr-accent-200);
   margin-top: 1rem;
+  border-radius: 0.7rem;
+  border-bottom: 3px solid var(--clr-accent-700);
+  margin-inline: 1rem;
+
+  padding-block: 0.7rem;
+  padding-inline: 1.25rem;
+}
+
+.social-icons {
+  margin-left: auto;
 }

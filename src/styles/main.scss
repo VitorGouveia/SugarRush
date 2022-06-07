@@ -6,16 +6,24 @@
 // @use "../scss/pages" as *;
 // @use "../scss/animations" as *;
 
+body {
+  background: linear-gradient(180deg, hsl(0, 0%, 100%) 0%, hsl(325, 37%, 90%) 100%);
+}
+
 .glider-container {
-  width: 75%;
+  margin-top: 1.25rem;
+  margin-inline: 1rem;
   position: relative;
 }
 
 .glider-track {
-  height: 100px;
+  // height: 100px;
+  display: flex;
+  gap: 0.7rem;
 }
 
 .glider-item {
+  width: 200px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +31,9 @@
   gap: 10px;
 
   background-color: var(--clr-accent-100);
-  padding: 10px 20px;
+  padding: 20px;
+
+  border-radius: 1rem;
 }
 
 .glider-prev,
