@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 export function Slider() {
     window.addEventListener('load', function(){
         // @ts-ignore
@@ -43,7 +41,7 @@ export function Slider() {
                 <div className="glider">
                     <div className="glider-item"> 
                         <img className="category-image" src="/public/Bread.png" alt="" />
-                        <h2 className="category-name">Pães</h2>
+                        <h2 className="category-name">Batatas</h2>
                     </div>
                     <div className="glider-item"> 
                         <h2>Pães</h2>

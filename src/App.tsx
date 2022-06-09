@@ -8,7 +8,7 @@ import { Slider } from './components/Slider'
 function App() {
   return (
         <div className="App">
-          {
+          {/* {
           Products.map( db => {
             return(
               <div className="products-box">
@@ -27,7 +27,7 @@ function App() {
                 </div>
                 )
               })
-            }
+            } */}
             <main>
               <Header/>
               <Slider/>
