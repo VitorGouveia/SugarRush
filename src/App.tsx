@@ -5,34 +5,23 @@ import './styles/main.scss'
 import { Header } from './components/Header'
 import { Slider } from './components/Slider'
 import { Footer } from './components/Footer'
+import { Bread } from './components/Bread'
+import { Macaron } from './components/Macaron'
+import { PPBrie } from './components/PPBrie'
+import { Focaccia } from './components/Focaccia'
+import { Cake } from './components/Cake'
+import { Brioche } from './components/Brioche'
+import { Breakfast } from './components/Breakfast'
+import { Dessert } from './components/Dessert'
+import { Triffle } from './components/Triffle'
+import { PuffPastry } from './components/PuffPastry'
+import { SpecialCake } from './components/SpecialCake'
 
 function App() {
   return (
         <div className="App">
-          {/* {
-          Products.map( db => {
-            return(
-              <div className="products-box">
-              <h1>{ db.category }</h1>
-              <img src={db.img}></img>
-              {db.products.map( db => {
-                return(
-                  <div>
-                  <h3>{db.name}</h3>
-                  <p>{db.description}</p>
-                  <p>R${db.price}</p>
-                  <img src={db.image}></img>
-                  </div>
-                  )
-                })}
-                </div>
-                )
-              })
-            } */}
             <main>
-              <Header/>
-              <Slider/>
-              <Footer/>
+            <Header/>
             </main>
         </div>
         )
