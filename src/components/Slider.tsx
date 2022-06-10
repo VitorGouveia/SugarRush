@@ -1,3 +1,5 @@
+import Products from '../db.json'
+
 export function Slider() {
     window.addEventListener('load', function(){
         // @ts-ignore
@@ -38,22 +40,19 @@ export function Slider() {
     
     return (
             <div className="glider-container">
-                <div className="glider">
+              <div className="glider">
+              {Products.map( db =>{
+                return(
+              
                     <div className="glider-item"> 
-                        <img className="category-image" src="/YesCakes/Bread.png" alt="" />
-                        <h2 className="category-name">Batatas</h2>
+                        <img className="category-image" src={db.img} alt="" />
+                        <h2 className="category-name">{db.category}</h2>
                     </div>
-                    <div className="glider-item"> 
-                        <h2>Pães</h2>
-                    </div>
-                    <div className="glider-item"> 
-                        <h2>Pães</h2>
-                    </div>
-                    <div className="glider-item"> 
-                        <h2>Pães</h2>
-                    </div>
-                </div>
-            
+                    
+            )
+              } )}
+
+            </div>
                 <button aria-label="Previous" className="glider-prev">«</button>
                 <button aria-label="Next" className="glider-next">»</button>
                 <div role="tablist" className="dots"></div>
