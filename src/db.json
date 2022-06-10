@@ -149,7 +149,7 @@
         }]},
 
 {"category": "Sobremesas",
-    "img": "https://cdn-icons.flaticon.com/png/512/5344/premium/5344349.png?token=exp=1654636214~hmac=e121c4f831941706bdefdd0989530d03",
+    "img": "https://res.cloudinary.com/decor/image/upload/v1654843474/Products%20YesCakes/sobremesa_ywsgoy.png",
     "products":[{ 
         "name": "Lemon Curd",
         "description": "Massa crocante a base de manteiga, creme de limão e merengue",
@@ -181,7 +181,7 @@
         }]},
 
 {"category": "Café da Manhã",
-    "img": "https://cdn-icons.flaticon.com/png/512/4378/premium/4378374.png?token=exp=1654636233~hmac=1bcc6e21eb25ce2e4b087a921ea65fad",
+    "img": "https://res.cloudinary.com/decor/image/upload/v1654843486/Products%20YesCakes/cafe-da-manha_xncjdm.png",
     "products":[{ 
         "name": "Cesta Café da Manhã",
         "description": "Biscoitos Madeleines Bolo Café Suco Flores Geleia Manteiga francesa Iogurte Mini brie Granola Salada de frutas Espumante mini Cesta de pães doces Cesta de pães salgados",
@@ -190,7 +190,7 @@
         }]},
 
 {"category": "Bolos Especiais",
-        "img": "https://cdn-icons.flaticon.com/png/512/3657/premium/3657155.png?token=exp=1654636254~hmac=45d783f40db13ba2601e1706eaec2e43",
+        "img": "https://res.cloudinary.com/decor/image/upload/v1654843469/Products%20YesCakes/piece-of-cake_jpp1yl.png",
     "products":[{ 
         "name": "Bolo para Ocasiões Especiais",
         "description": "Bolo de aniversário ou para ocasiões especiais! Consulte-nos. Trabalhos por kilo.",
@@ -198,7 +198,7 @@
         "image": "https://qlickmenu.s3-us-west-1.amazonaws.com/companies/products/53b064ac-78c1-4b62-ba33-7a9013436c7e.jpeg"
         }]},
 {"category": "Triffle",
-        "img": "https://cdn-icons.flaticon.com/png/512/3128/premium/3128236.png?token=exp=1654636469~hmac=8840c506c6f76d3b5587db213e4fc3b9",
+        "img": "https://res.cloudinary.com/decor/image/upload/v1654843612/Products%20YesCakes/strawberry-cake_q3bfpr.png",
     "products":[{ 
         "name": "Triffles G",
         "description": "Sobremesas em camadas, floresta negra, abacaxi com coco, nozes com baba de moça e banofe",
@@ -216,7 +216,7 @@
         }]},
 
 {"category": "Macarons",
-        "img": "https://cdn-icons.flaticon.com/png/512/1923/premium/1923488.png?token=exp=1654636491~hmac=c8852453edd958166f6dc587a93a138e",
+        "img": "https://res.cloudinary.com/decor/image/upload/v1654843467/Products%20YesCakes/macarons_b4tl5g.png",
     "products":[{ 
         "name": "Macarons",
         "description": "Vários sabores a sua escolha! Pistache, framboesa, bluberries, champagne, chocolate, baunilha,limão siciliano, maracujá, doce de leite, amêndoas, caramelo com flor de sal, avelã!",
