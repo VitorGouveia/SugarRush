@@ -4,6 +4,7 @@ import './styles/main.scss'
 
 import { Header } from './components/Header'
 import { Slider } from './components/Slider'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <main>
               <Header/>
               <Slider/>
+              <Footer/>
             </main>
         </div>
         )

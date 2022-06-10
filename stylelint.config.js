@@ -19,6 +19,7 @@ module.exports = {
         ignore: ['after-comment'],
       },
     ],
+    'property-no-vendor-prefix': [true, { ignoreProperties: ["background-clip"] }],  
     'function-url-quotes': null,
     'selector-id-pattern': null,
     'no-descending-specificity': null,
