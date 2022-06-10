@@ -6,7 +6,7 @@ export function Footer() {
             
             <div className="footer-contact">
                 <div className="mappin-container">
-                    <img src="/FooterAssets/FooterMapPin.svg" alt="" className="mappin-image" />
+                    <img src="/YesCakes/FooterAssets/FooterMapPin.svg" alt="" className="mappin-image" />
                 </div>
                 <div className="address-container">
                     <p className="find-us">Nos Encontre!</p>
@@ -16,14 +16,14 @@ export function Footer() {
 
             <div className="footer-social">
                 <div className="heart-container">
-                    <img src="/FooterAssets/FooterHeartIcon.svg" alt="" className="heart-image" />                    
+                    <img src="/YesCakes/FooterAssets/FooterHeartIcon.svg" alt="" className="heart-image" />                    
                 </div>
                 <div className="social-container">
                     <p className="follow-us">Entre Em Contato!</p>
                     <div className="social-icons-container">
-                        <img src="/FooterAssets/FooterInstagramLogo.svg" alt="" className="instagram-image" />
-                        <img src="/FooterAssets/FooterWhatsappLogo.svg" alt="" className="whatsapp-image" />
-                        <img src="/FooterAssets/FooterFacebookLogo.svg" alt="" className="facebook-image" />
+                        <img src="/YesCakes/FooterAssets/FooterInstagramLogo.svg" alt="" className="instagram-image" />
+                        <img src="/YesCakes/FooterAssets/FooterWhatsappLogo.svg" alt="" className="whatsapp-image" />
+                        <img src="/YesCakes/FooterAssets/FooterFacebookLogo.svg" alt="" className="facebook-image" />
                     </div>
                 </div>
             </div>

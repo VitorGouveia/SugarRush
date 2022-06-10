@@ -40,7 +40,7 @@ export function Slider() {
             <div className="glider-container">
                 <div className="glider">
                     <div className="glider-item"> 
-                        <img className="category-image" src="/public/Bread.png" alt="" />
+                        <img className="category-image" src="/YesCakes/Bread.png" alt="" />
                         <h2 className="category-name">Batatas</h2>
                     </div>
                     <div className="glider-item"> 
