@@ -5,8 +5,8 @@ export function Slider() {
         // @ts-ignore
         new Glider(document.querySelector('.glider'), {
             // Mobile-first defaults
-            slidesToScroll: 1,
-            slidesToShow: 3,
+            slidesToScroll: 2,
+            slidesToShow: 2,
             draggable: true,
             dots: '.dots',
             arrows: {
@@ -16,7 +16,7 @@ export function Slider() {
             responsive: [
               {
                 // screens greater than >= 775px
-                breakpoint: 775,
+                breakpoint: 445,
                 settings: {
                   // Set to `auto` and provide item width to adjust to viewport
                   slidesToShow: 'auto',
@@ -28,9 +28,9 @@ export function Slider() {
                 // screens greater than >= 1024px
                 breakpoint: 1024,
                 settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 1,
-                  itemWidth: 150,
+                  slidesToShow: 'auto',
+                  slidesToScroll: 'auto',
+                  itemWidth: 160,
                   duration: 0.25
                 }
               }
@@ -53,11 +53,14 @@ export function Slider() {
               } )}
 
             </div>
-                <button aria-label="Previous" className="glider-prev">«</button>
-                <button aria-label="Next" className="glider-next">»</button>
                 <div role="tablist" className="dots"></div>
+
+                <div className="glider-movement-container">
+                  <button aria-label="Previous" className="glider-prev">«</button>
+                  <button aria-label="Next" className="glider-next">»</button>
+                </div>
             </div>
 
-        
+
         )
     }

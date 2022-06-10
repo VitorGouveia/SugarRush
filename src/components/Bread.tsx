@@ -1,6 +1,4 @@
-
 import Products from '../db.json';
-
 
 export function Bread(){
   const bread = Products.filter((db: { category: string; }) => {

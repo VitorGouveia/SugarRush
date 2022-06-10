@@ -7,11 +7,11 @@
 h1,
 h2,
 h3 {
-  color: var(--color-contrast-high);
+  color: var(--clr-gray-scale-800);
 }
 
 h1 {
-  font-family: var(--ff-bebas);
+  font-family: var(--ff-montserrat);
 }
 
 h2,
@@ -25,9 +25,9 @@ a,
 p,
 small {
   font-size: var(--fs-400);
-  font-family: var(--ff-josefin);
+  font-family: var(--ff-motnserrat);
   font-weight: 300;
-  color: var(--clr-gray-scale-90);
+  color: var(--clr-gray-scale-800);
 }
 
 $type-scale: (

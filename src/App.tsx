@@ -17,14 +17,16 @@ import { Triffle } from './components/Triffle'
 import { PuffPastry } from './components/PuffPastry'
 import { SpecialCake } from './components/SpecialCake'
 import { Category } from './components/Category'
+import { ProductCard } from './components/ProductCard'
 
 function App() {
   return (
         <div className="App">
             <main>
-            <Header/>
-            <Slider/>
-            <Footer/>
+              <Header/>
+              <Slider/>
+              <ProductCard/>
+              <Footer/>
             </main>
         </div>
         )
