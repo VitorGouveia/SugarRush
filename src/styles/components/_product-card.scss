@@ -16,8 +16,15 @@
   align-items: center;
   justify-content: center;
 
+  // Tablet Adjustments
   @media (min-width: 768px) {
     flex-direction: column-reverse;
+  }
+
+  @media (min-width: 1024px) {
+    justify-content: flex-end;
+    background-color: var(--clr-accent-200);
+    border-radius: 1rem;
   }
 }
 
@@ -49,10 +56,17 @@
     height: 430px;
   }
 
+  // Tablet Adjustments
   @media (min-width: 768px) {
     gap: 0.8rem;
     padding-top: 5rem;
     padding-bottom: 0;
+  }
+
+  // Laptop Adjustments
+  @media (min-width: 1024px) {
+    height: auto;
+    padding: 2rem;
   }
 
   .card-title,
@@ -83,6 +97,7 @@
   margin-top: -6rem;
   border-radius: 1rem;
 
+  // Tablet Adjustments
   @media (min-width: 768px) {
     width: 250px;
     height: 250px;
@@ -90,5 +105,14 @@
     margin-bottom: -7rem;
     margin-right: 6rem;
     z-index: 99;
+  }
+
+  @media (min-width: 1024px) {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-bottom-right-radius: 200px;
+
+    border-bottom-left-radius: 200px;
   }
 }
