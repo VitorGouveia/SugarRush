@@ -1,5 +1,4 @@
 import './App.css'
-import Products from './db.json'
 import './styles/main.scss'
 
 import { Header } from './components/Header'
