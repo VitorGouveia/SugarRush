@@ -1,33 +1,38 @@
+import { useState } from 'react';
 import Products from '../db.json';
 
 
 
 
-export function Category(){
-    var filter: string | null
+export function Category({parentToChild}: any){
+  
   const Category = Products.filter((db: { category: string | null ;}) => {
-    return db.category === filter;
+    
+
+      return db.category === parentToChild
+    
   })
   return (
-    <div className="Category">
+    <section className="product-section">
       { 
         Category.map( db => {
           return(
-            <div>
-              <h1></h1>
+            <>
               {db.products.map( product => {
                 return(
-                  <div>
-                  <h3>{product.name}</h3>
-                  <p>{product.description}</p>
-                  <p>R${product.price}</p>
-                  <img src={product.image}></img>
+                  <div className="card-container">
+                  <div className="card-content">
+                       <h1 className="card-title">{product.name}</h1>
+                       <p className="card-description">{product.description}</p>
+                       <h2 className="card-price">R$ {product.price}</h2>
                   </div>
+                  <img src={product.image} alt={product.name} className="card-image" />
+              </div>
                   )
                 })}
-            </div>
+            </>
           )})
         }
-    </div>
+    </section>
     )
   }

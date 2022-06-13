@@ -1,6 +1,12 @@
 import Products from '../db.json'
+import {FormEventHandler, useState} from 'react';
 
-export function Slider() {
+
+
+export function Slider({childToParent}: any) {
+
+    
+
     window.addEventListener('load', function(){
         // @ts-ignore
         new Glider(document.querySelector('.glider'), {
@@ -42,9 +48,12 @@ export function Slider() {
             <div className="glider-container">
               <div className="glider">
               {Products.map( db =>{
+                
+                
+                const changeFilterData = (filter: string) => () => childToParent(filter)
                 return(
               
-                    <div className="glider-item"> 
+                    <div onClick={changeFilterData(db.category)} className="glider-item"> 
                         <img className="category-image" src={db.img} alt="" />
                         <h2 className="category-name">{db.category}</h2>
                     </div>

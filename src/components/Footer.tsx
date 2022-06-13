@@ -27,7 +27,7 @@ export function Footer() {
                     </div>
                 </div>
             </div>
-            <p className="made-with-love">Made With ❤️ By <a className="love-link" href="https://github.com/AtomicFeasT">Thiago</a> @2022</p>
+            <p className="made-with-love">Made With ❤️ By <a className="love-link" href="https://github.com/AtomicFeasT">Thiago</a> & <a className="love-link" href="https://github.com/Buskik">Rodrigo</a> @2022</p>
 
         </footer>       
     )
