@@ -2,11 +2,6 @@
 @use "../base/colors" as *;
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-
   background-color: var(--clr-accent-100);
 
   margin-top: auto;
@@ -17,6 +12,54 @@
   border-top-left-radius: 1rem;
   padding-block: 0.9rem;
   padding-inline: 1.2rem;
+
+  @media (min-width: 768px) {
+    padding: 0;
+    border: 0;
+  }
+}
+
+.wave-top,
+.wave-bottom {
+  display: none;
+  @media (min-width: 768px) {
+  display: flex; 
+  width: 100%;
+
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  }
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
+}
+
+.title-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-subtitle {
+  width: 20ch;
+
+  @media (min-width: 1024px) {
+    font-size: 1.5rem;
+  }
 }
 
 .footer-contact {
@@ -24,6 +67,10 @@
   align-items: center;
   justify-content: flex-start;
   gap: 0.6rem;
+
+  @media (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .mappin-image,
@@ -34,10 +81,17 @@
 }
 
 .address-container {
+  width: 250px;
   display: flex;
   flex-direction: column;
   // justify-content: flex-start;
   align-items: flex-start;
+
+  .find-us {
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
 
   .address {
     font-weight: bold;
@@ -61,6 +115,10 @@
   display: flex;
   align-items: flex-start;
   gap: 0.6rem;
+ 
+  @media (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .social-container {
@@ -69,9 +127,31 @@
   align-items: flex-start;
   justify-content: flex-start;
 
+  @media (min-width: 768px) {
+    width: 250px;
+  }
+
+  .follow-us {
+    font-size: 1.5rem;
+  }
+
   .social-icons-container {
     display: flex;
   }
+
+  .instagram-link:hover,
+  .instragram-link:focus-within,
+  .whatsapp-link:hover,
+  .whatsapp-link:focus-within {
+    filter: brightness(55%);
+    transition: all 200ms linear;
+  }
+}
+
+.instagram-image,
+.whatsapp-image,
+.facebook-image {
+  width: 50px;
 }
 
 .made-with-love {
@@ -79,5 +159,9 @@
 
   .love-link {
     text-decoration: underline;
+  }
+
+  @media (min-width: 768px) {
+    padding-block: 1rem;
   }
 }

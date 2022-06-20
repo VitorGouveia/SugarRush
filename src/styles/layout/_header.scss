@@ -22,5 +22,18 @@
 }
 
 .social-icons {
+  display: flex;
   margin-left: auto;
+  cursor: pointer;
+}
+
+.instagram-logo:focus-within path,
+.instagram-logo:hover path {
+ stroke: var(--clr-accent-400);
+ transition: all 200ms linear;
+}
+
+.instagram-logo:hover .instagram-dot,
+.instagram-log:focus .instagram-dot {
+  fill: var(--clr-accent-400);
 }
