@@ -1,4 +1,4 @@
-<h1 id="YesCakes" align="center">🎂 YesCakes</h1>
+<h1 id="YesCakes" align="center">🎂<a href="https://atomicfeast.github.io/YesCakes/">YesCakes</a></h1>
 🎂 A eye-cakey restaurant menu.
 
 <h2>Purpose</h2>
