@@ -1,10 +1,22 @@
 <h1 id="YesCakes" align="center">🎂 <a href="https://atomicfeast.github.io/YesCakes/">YesCakes</a></h1>
+<div align="center">
+  <table>
+    <tr>
+      <td valign="top">
+        <a href="https://www.figma.com/file/7enEbXQcvgR2QswAXK0Q1o/YesCakes---Menu?node-id=2%3A4">Figma</a>
+      </td>
+   </tr>
+  </table>
+</div>
+
+---
+
 🎂 A eye-cakey restaurant menu.
 
-<h2>Purpose</h2>
+<h1>Purpose</h1>
 Develop a simple, straightfoward and beautiful all in one online restaurant menu for all devices.
 
-<h3>Technologies And Packages</h3>
+<h2>Technologies And Packages</h2>
 <div style="display: inline"> 
    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img align="center" alt="HTML5" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img align="center" alt="CSS3" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
@@ -34,7 +46,7 @@ Develop a simple, straightfoward and beautiful all in one online restaurant menu
   </tr>
 </table>
 
-<h3>License</h3>
+<h4>License</h4>
 
 This project is under the Apache license. See the [LICENSE](LICENSE.md) file for details.
 
