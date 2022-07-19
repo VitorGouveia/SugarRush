@@ -16,10 +16,10 @@ export function Category({ parentToChild }: any) {
             <>
               {db.products.map(product => {
                 return (
-                  <div className="card-container">
+                  <div key={product.name} className="card-container">
                     <div className="card-content">
                       <h1 className="card-title">{product.name}</h1>
-                      <p className="card-description">{product.description}</p>
+                      <p dangerouslySetInnerHTML={{ __html: product.description }} className="card-description" />
                       <h2 className="card-price">R$ {product.price}</h2>
                     </div>
                     {/* <img src={product.image} alt={product.name} className="card-image" /> */}
