@@ -1,3 +1,4 @@
+import React from 'react';
 import Products from '../db.json';
 
 export function Category({ parentToChild }: any) {
@@ -13,7 +14,7 @@ export function Category({ parentToChild }: any) {
       {
         Category.map(db => {
           return (
-            <>
+            <React.Fragment key={db.category}>
               {db.products.map(product => {
                 return (
                   <div key={product.name} className="card-container">
@@ -26,7 +27,7 @@ export function Category({ parentToChild }: any) {
                   </div>
                 )
               })}
-            </>
+            </React.Fragment>
           )
         })
       }
