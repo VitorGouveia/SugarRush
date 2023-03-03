@@ -1,0 +1,57 @@
+[
+  {
+    "id": "e432c1f8-e841-476b-ba3b-a05c4bfa6a3a",
+    "name": "Café da Manhã",
+    "image": "https://res.cloudinary.com/decor/image/upload/v1654843486/Products%20YesCakes/cafe-da-manha_xncjdm.png"
+  },
+  {
+    "id": "9cbefd71-0910-455b-85ce-487f86527480",
+    "name": "Pães",
+    "image": "https://res.cloudinary.com/decor/image/upload/v1654637971/Products%20YesCakes/bread_wx71xv.png"
+  },
+  {
+    "id": "4e316007-8019-4d8e-8d61-711d4c23ea3d",
+    "name": "Brioches",
+    "image": "https://cdn-icons-png.flaticon.com/512/3348/3348089.png"
+  },
+  {
+    "id": "2b3e2f1d-bd0c-409e-a323-eb74e64f2be7",
+    "name": "Focaccias",
+    "image": "https://cdn-icons-png.flaticon.com/512/6892/6892168.png"
+  },
+  {
+    "id": "17d71f1a-1b43-42b3-be63-87378fa37ea4",
+    "name": "Bolos",
+    "image": "https://cdn-icons-png.flaticon.com/512/992/992754.png"
+  },
+  {
+    "id": "1befa340-fdac-4f08-9e26-1d5ec4838ba8",
+    "name": "Folhados",
+    "image": "https://cdn-icons-png.flaticon.com/512/2164/2164111.png"
+  },
+  {
+    "id": "07008fd1-4afd-4ee5-8ae3-19d365626512",
+    "name": "Sobremesas",
+    "image": "https://res.cloudinary.com/decor/image/upload/v1654843474/Products%20YesCakes/sobremesa_ywsgoy.png"
+  },
+  {
+    "id": "a80ca0fe-bfda-48ee-a633-236ea328ac22",
+    "name": "Bolos Especiais",
+    "image": "https://res.cloudinary.com/decor/image/upload/v1654843469/Products%20YesCakes/piece-of-cake_jpp1yl.png"
+  },
+  {
+    "id": "f1a648b0-9e99-49f1-954b-72574f48f09d",
+    "name": "Triffle",
+    "image": "https://res.cloudinary.com/decor/image/upload/v1654843612/Products%20YesCakes/strawberry-cake_q3bfpr.png"
+  },
+  {
+    "id": "01d6eebb-72a1-4baa-ab9d-e06cb9f50aa0",
+    "name": "Brie Folhado",
+    "image": "https://res.cloudinary.com/decor/image/upload/v1654635491/Products%20YesCakes/BrieCheese_1_u2gcdm.svg"
+  },
+  {
+    "id": "6f72662f-b26a-46d1-bb7a-6dcbf641e106",
+    "name": "Macarons",
+    "image": "https://res.cloudinary.com/decor/image/upload/v1654843467/Products%20YesCakes/macarons_b4tl5g.png"
+  }
+]

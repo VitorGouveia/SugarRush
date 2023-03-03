@@ -1,54 +1,76 @@
-<h1 id="YesCakes" align="center">🎂 <a href="https://atomicfeast.github.io/YesCakes/">YesCakes</a></h1>
+# DoctorCare
+
 <div align="center">
-  <table>
-    <tr>
-      <td valign="top">
-        <a href="https://www.figma.com/file/7enEbXQcvgR2QswAXK0Q1o/YesCakes---Menu?node-id=2%3A4">Figma</a>
-      </td>
-   </tr>
-  </table>
+  <img src=".github/assets/mobile.png" />
 </div>
+
+<br />
 
 ---
 
-🎂 A eye-cakey restaurant menu.
+<br />
 
-<h1>Purpose</h1>
-Develop a simple, straightfoward and beautiful all in one online restaurant menu for all devices.
+<img src=".github/assets/desktop.png" />
 
-<h2>Technologies And Packages</h2>
-<div style="display: inline"> 
-   <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img align="center" alt="HTML5" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
-   <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img align="center" alt="CSS3" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
-   <a target="_blank" href="https://sass-lang.com/"><img align="center" alt="SASS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"></a>
-  <a target="_blank" href="https://pt-br.reactjs.org/"><img align="center" alt="ReactJS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
-</div>
+<br />
 
-<h3>Contributors</h3>
+---
+
+<br />
+
+## Tecnologies
+
+<br />
+
+<img src="https://img.shields.io/badge/Next.js%2013-FFFFFF?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/TailwindCSS-FFFFFF?style=for-the-badge&logo=tailwindcss" />
+<a href="https://www.typescriptlang.org/">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+</a>
+<a href="https://eslint.org/">
+  <img src="https://img.shields.io/badge/Eslint-4B32C3?style=for-the-badge&logo=eslint" />
+</a>
+<a href="https://prettier.io/">
+  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=000" />
+</a>
+
+<br />
+
+## 📝 License
+
+This project is under the MIT license. See the [license](LICENSE.md) file for mode details.
+
+<br />
+
+## Contributors
+
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/AtomicFeasT">
-        <img src="https://avatars.githubusercontent.com/AtomicFeasT" width="100px;" alt="Foto do Thiago Thalisson no GitHub"/><br>
+      <a href="https://github.com/ThiagoThalisson">
+        <img src="https://avatars.githubusercontent.com/ThiagoThalisson" width="100px;" alt="Foto do Thiago Thalisson no GitHub"/><br>
         <sub>
           <b>Thiago Thalisson</b>
-        </sub>
-      </a>
-    </td>
-   <td align="center">
-      <a href="https://github.com/Buskik">
-        <img src="https://avatars.githubusercontent.com/Buskik" width="100px;" alt="Foto Do Rodrigo Andrade"/><br>
-        <sub>
-          <b>Rodrigo Andrade</b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
 
-<h4>License</h4>
+<br />
 
-This project is under the Apache license. See the [LICENSE](LICENSE.md) file for details.
+## **Creator**
 
-[⬆ Back To Top](#YesCakes)<br>
+My name is [Vitor Gouveia](https://github.com/VitorGouveia), I am a 17 year old developer who really likes to create apps using over-engineered tech stacks.
 
+### **Contact**
+
+If you want to get in contact with me, here are my social media:
+
+<a href="https://www.linkedin.com/in/vitor-neves-gomes-gouveia-08ba391a7">
+  <img src="https://img.shields.io/badge/LinkedIn-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+</a>
+
+<a href="https://www.instagram.com/vitor_.gouveia">
+  <img src="https://img.shields.io/badge/Instagram-FFFFFF?style=for-the-badge&logo=instagram" />
+</a>
